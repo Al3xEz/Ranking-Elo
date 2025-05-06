@@ -17,7 +17,8 @@ body {
   min-height: 100dvh;
   overflow: auto;
   background-color: gray;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', serif;
+  color: #27272a;
 }
 
 .button-capture {
@@ -55,9 +56,8 @@ body {
 }
 
 .title {
-  font-size: 68px;
+  font-size: 62px;
   font-weight: 500;
-  line-height: 78px;
 }
 
 .logo {
@@ -96,9 +96,29 @@ body {
   color: white;
 }
 
+.name-and-club {
+  display: flex;
+  flex-direction: column;
+}
+
 .name {
   font-size: 34px;
-  line-height: 34px;
+}
+
+.club-and-category {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-size: 22px;
+  color: #52525b;
+}
+
+.separator-dot {
+  width: 6px;
+  height: 6px;
+  background: #52525b;
+  border-radius: 100%;
 }
 
 .gold {
